@@ -32,3 +32,7 @@ public:
 	void tambahPasien(pasien*);
 	void cetakPesan();
 };
+
+void pasien::tambahDokter(dokter* pDokter) {
+	daftar_dokter.push_back(pDokter);
+}
